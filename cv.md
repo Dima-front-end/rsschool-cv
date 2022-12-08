@@ -31,3 +31,28 @@ Skills
 *   Vue, React (basics)
 *   Node.js (basics)
 *   VS Code
+
+### Example code
+
+                    `getCurrency()                          async function getCurrency() {                             const url = "https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5"                             const response = await fetch (url);                             const data = await response.json();                             render(data);                         };                          function render(data) {                             data.forEach(function (item) {                                 let currency = item.ccy;                                 let costCurrency = parseFloat(item.sale).toFixed(2);                                                          if(currency == 'USD') {                                     USD.innerHTML = costCurrency;                                 };                         }                         )};`
+                
+
+### Experience
+
+_No work experience yet..._
+
+* * *
+
+### Education
+
+*   The Complete JavaScript Course for Beginners  →[Click](https://youtu.be/CxgOKJh4zWE)  \[11 h\]
+*   React JS fundamental course from A to Z  →[Click](https://youtu.be/GNrdg3PzpJQ)  \[3 h\]
+*   Node JS fundamental course from A to Z  →[Click](https://youtu.be/243pQXC5Ebs)  \[2 h\]
+*   React and TypeScript - Quick Course  →[Click](https://youtu.be/OJ16BaPC6VI)  \[1.5 h\]
+*   Vue 3 course  →[Click](https://www.vuemastery.com/courses)  \[1 h\]
+
+* * *
+
+### English level
+
+The EPAM test showed the result - B1. Actively learning the language
